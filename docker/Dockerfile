@@ -16,7 +16,7 @@ ENV PATH /root/miniconda3/bin:$PATH
 RUN mkdir -p ~/.jupyter
 COPY jupyter_notebook_config.py /root/.jupyter/jupyter_notebook_config.py
 
-COPY requirements.txt
+COPY requirements.txt .
 RUN pip install --upgrade pip setuptools && pip install -r requirements.txt --no-cache-DEBIAN_FRONTEND
 
 RUN mkdir -p /root/work

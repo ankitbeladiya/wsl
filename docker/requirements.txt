@@ -1,0 +1,10 @@
+jupyter
+jupyterlab
+ipywidgets
+requests
+numpy
+pandas
+widgetsbextension
+sklearn
+awscli
+boto3

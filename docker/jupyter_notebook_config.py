@@ -46,7 +46,7 @@
 #
 #  Takes precedence over allow_origin_pat.
 #c.NotebookApp.allow_origin = ''
-c.notebookapp.allow_root = True
+# c.notebookapp.allow_root = True
 ## Use a regular expression for the Access-Control-Allow-Origin header
 #
 #  Requests from an origin matching the expression will get replies with:
@@ -155,7 +155,7 @@ c.notebookapp.allow_root = True
 #c.NotebookApp.iopub_msg_rate_limit = 0
 
 ## The IP address the notebook server will listen on.
-#c.NotebookApp.ip = 'localhost'
+c.NotebookApp.ip = '0.0.0.0'
 
 ## Supply extra arguments that will be passed to Jinja environment.
 #c.NotebookApp.jinja_environment_options = {}

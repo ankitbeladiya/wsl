@@ -1,10 +1,10 @@
 jupyter
 jupyterlab
 ipywidgets
+widgetsnbextension
 requests
 numpy
 pandas
-widgetsbextension
 sklearn
 awscli
 boto3
